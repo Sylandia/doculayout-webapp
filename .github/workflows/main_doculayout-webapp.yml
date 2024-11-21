@@ -73,6 +73,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'Doculayout-Webapp-01'
+          app-name: 'doculayout-webapp'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9CF20DB3D6AC495AB43CF2A1C087FA3F }}
